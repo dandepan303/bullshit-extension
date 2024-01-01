@@ -2,6 +2,7 @@
 	"name": "bullshit-syntax",
 	"displayName": "Bullshit",
 	"description": "Bullshit programming language",
+	"icon": "icon.png",
 	"version": "0.3.0",
 	"publisher": "deanhiranburana",
 	"engines": {
