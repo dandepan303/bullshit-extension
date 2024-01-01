@@ -3,7 +3,7 @@
 	"displayName": "Bullshit",
 	"description": "Bullshit programming language",
 	"icon": "icon.png",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"publisher": "deanhiranburana",
 	"engines": {
 		"vscode": "^1.84.0"
