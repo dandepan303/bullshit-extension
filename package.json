@@ -1,0 +1,62 @@
+{
+	"name": "bullshit-syntax",
+	"displayName": "Bullshit",
+	"description": "Bullshit programming language",
+	"version": "0.2.0",
+	"publisher": "deanhiranburana",
+	"engines": {
+		"vscode": "^1.84.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "bullshit",
+				"aliases": [
+					"Bullshit",
+					"bullshit"
+				],
+				"extensions": [
+					".bs"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "bullshitx",
+				"aliases": [
+					"Bullshit X",
+					"bullshitx"
+				],
+				"extensions": [
+					".bsx"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "bullshitx",
+				"scopeName": "source.bsx",
+				"path": "./syntaxes/bullshitx.tmLanguage.json"
+			},
+			{
+				"language": "bullshit",
+				"scopeName": "source.bs",
+				"path": "./syntaxes/bullshit.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "33321d8d-0f40-4354-9506-bad0e487d304",
+		"publisherId": "972270d6-023f-4b26-bd34-02a465f38bfb",
+		"publisherDisplayName": "deanhiranburana",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1704083235592,
+		"pinned": false,
+		"preRelease": false
+	}
+}

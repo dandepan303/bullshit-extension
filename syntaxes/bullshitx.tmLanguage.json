@@ -1,0 +1,82 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "bullshitx",
+	"patterns": [
+		{
+			"include": "#tests"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#booleans"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#varname"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.bullshitx",
+					"match": "\\b(sus|impostor|yall|bullshit)\\b"
+				}
+			]
+		},
+		"tests": {
+			"patterns": [
+				{
+					"name": "entity.name.function",
+					"match": "thicc|btw|carenot|smol|be|fr|nah"
+				}
+			]
+		},
+		"booleans": {
+			"patterns": [
+				{
+					"name": "constant.language",
+					"match": "\\b(nocap|cap)\\b"
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "\\b([+-]?([0-9]*[.])?[0-9]+)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.bullshitx",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.bullshitx",
+					"match": "\\\\."
+				}
+			]
+		},
+		"varname": {
+			"patterns": [
+				{
+					"name": "invalid.illegal",
+					"match": "^(?!(lit|mf)).*;$"
+				},
+				{
+					"name": "storage.type",
+					"match": "bruh|lit|mf|fuck_around|find_out"
+				}
+			]
+		}
+	},
+	"scopeName": "source.bsx"
+}
