@@ -2,7 +2,7 @@
 	"name": "bullshit-syntax",
 	"displayName": "Bullshit",
 	"description": "Bullshit programming language",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"publisher": "deanhiranburana",
 	"engines": {
 		"vscode": "^1.84.0"
